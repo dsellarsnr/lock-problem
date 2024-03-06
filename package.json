@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "@types/node": "18.19.22",
+    "@types/proper-lockfile": "4.1.4",
+    "@types/uuid": "9.0.8",
+    "tsx": "4.7.1",
+    "typescript": "5.4.2"
+  },
+  "dependencies": {
+    "proper-lockfile": "4.1.2",
+    "uuid": "9.0.1"
+  },
+  "name": "lock-problem",
+  "version": "1.0.0",
+  "description": "test case for proper-lockfile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
