@@ -49,7 +49,7 @@ async function getClientUuid(): Promise<string> {
 		await fs.writeFile(file, uuid, "utf8");
 		return uuid;
 	} catch (error) {
-		console.error(`${theDate()} ${pid} error`, error);
+		console.error(`${theDate()} ${procNum} error`, error);
 		throw error;
 	} finally {
 		await release();
