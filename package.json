@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/fs-ext": "2.0.3",
     "@types/node": "18.19.22",
     "@types/proper-lockfile": "4.1.4",
     "@types/uuid": "9.0.8",
@@ -7,6 +8,8 @@
     "typescript": "5.4.2"
   },
   "dependencies": {
+    "cross-process-lock": "2.1.1",
+    "fs-ext": "2.0.0",
     "proper-lockfile": "4.1.2",
     "uuid": "9.0.1"
   },
